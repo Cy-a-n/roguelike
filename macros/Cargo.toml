@@ -1,0 +1,14 @@
+[package]
+name = "macros"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.13"
+syn = { version = "2.0.65", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+bevy_utils = { path = "../bevy_utils" }
+
+[lib]
+proc-macro = true
