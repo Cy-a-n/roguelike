@@ -1,10 +1,12 @@
 use bevy::{app::App, DefaultPlugins};
-use main_camera::MainCameraPlugin;
+use game_state::GameStatesPlugin;
 
-mod main_camera;
+mod game_state;
+/// Reusable mathematical utilities.
+pub mod math;
 
 fn main() {
     App::new()
-        .add_plugins((DefaultPlugins, MainCameraPlugin))
+        .add_plugins((DefaultPlugins, GameStatesPlugin))
         .run();
 }
