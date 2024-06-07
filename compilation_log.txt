@@ -1,0 +1,311 @@
+warning: output filename collision.
+The lib target `bevy_dylib` in package `bevy_dylib v0.13.2` has the same output filename as the lib target `bevy_dylib` in package `bevy_dylib v0.13.2`.
+Colliding filename is: /home/jasper/documents/roguelike/target/debug/libbevy_dylib.so
+The targets should have unique names.
+Consider changing their names to be unique or compiling them separately.
+This may become a hard error in the future; see <https://github.com/rust-lang/cargo/issues/6313>.
+warning: output filename collision.
+The lib target `bevy_dylib` in package `bevy_dylib v0.13.2` has the same output filename as the lib target `bevy_dylib` in package `bevy_dylib v0.13.2`.
+Colliding filename is: /home/jasper/documents/roguelike/target/debug/libbevy_dylib.so.dwp
+The targets should have unique names.
+Consider changing their names to be unique or compiling them separately.
+This may become a hard error in the future; see <https://github.com/rust-lang/cargo/issues/6313>.
+       Fresh unicode-ident v1.0.12
+       Fresh cfg-if v1.0.0
+       Fresh autocfg v1.3.0
+       Fresh once_cell v1.19.0
+       Fresh version_check v0.9.4
+       Fresh zerocopy v0.7.34
+       Fresh allocator-api2 v0.2.18
+       Fresh equivalent v1.0.1
+       Fresh rustc-hash v1.1.0
+       Fresh proc-macro2 v1.0.84
+       Fresh pin-project-lite v0.2.14
+       Fresh log v0.4.21
+       Fresh tracing-core v0.1.32
+       Fresh parking v2.2.0
+       Fresh winnow v0.5.40
+       Fresh toml_datetime v0.6.6
+       Fresh quote v1.0.36
+       Fresh libc v0.2.155
+       Fresh cfg_aliases v0.1.1
+       Fresh futures-core v0.3.30
+       Fresh fastrand v2.1.0
+       Fresh futures-io v0.3.30
+       Fresh async-task v4.7.1
+       Fresh downcast-rs v1.2.1
+       Fresh syn v2.0.66
+       Fresh getrandom v0.2.15
+       Fresh crossbeam-utils v0.8.20
+       Fresh futures-lite v2.3.0
+       Fresh fixedbitset v0.4.2
+       Fresh smol_str v0.2.2
+       Fresh nonmax v0.5.5
+       Fresh web-time v0.2.4
+       Fresh typeid v1.0.0
+       Fresh thread_local v1.1.8
+       Fresh bevy_ptr v0.13.2
+       Fresh serde_derive v1.0.203
+       Fresh ahash v0.8.11
+       Fresh thiserror-impl v1.0.61
+       Fresh bytemuck_derive v1.7.0
+       Fresh concurrent-queue v2.5.0
+       Fresh tracing-attributes v0.1.27
+       Fresh slab v0.4.9
+       Fresh bevy_utils_proc_macros v0.13.2
+       Fresh memchr v2.7.2
+       Fresh libloading v0.8.3
+       Fresh regex-syntax v0.8.3
+       Fresh arrayvec v0.7.4
+       Fresh serde v1.0.203
+       Fresh bytemuck v1.16.0
+       Fresh thiserror v1.0.61
+       Fresh tracing v0.1.40
+       Fresh event-listener v5.3.1
+       Fresh async-executor v1.12.0
+       Fresh aho-corasick v1.1.3
+       Fresh bit-vec v0.6.3
+       Fresh lazy_static v1.4.0
+       Fresh regex-syntax v0.6.29
+       Fresh termcolor v1.4.1
+       Fresh hashbrown v0.14.5
+       Fresh bitflags v2.5.0
+       Fresh smallvec v1.13.2
+       Fresh glam v0.25.0
+       Fresh uuid v1.8.0
+       Fresh event-listener-strategy v0.5.2
+       Fresh erased-serde v0.4.5
+       Fresh regex-automata v0.4.6
+       Fresh regex-automata v0.1.10
+       Fresh raw-window-handle v0.6.2
+       Fresh unicode-width v0.1.12
+       Fresh indexmap v2.2.6
+       Fresh async-channel v2.3.1
+       Fresh bevy_math v0.13.2
+       Fresh regex v1.10.4
+       Fresh overload v0.1.1
+       Fresh matchers v0.1.0
+       Fresh spirv v0.3.0+sdk-1.3.268.0
+       Fresh codespan-reporting v0.11.1
+       Fresh bit-set v0.5.3
+       Fresh sharded-slab v0.1.7
+       Fresh toml_edit v0.21.1
+       Fresh petgraph v0.6.5
+       Fresh bevy_tasks v0.13.2
+       Fresh nu-ansi-term v0.46.0
+       Fresh tracing-log v0.2.0
+       Fresh bitflags v1.3.2
+       Fresh hexf-parse v0.2.1
+       Fresh unicode-xid v0.2.4
+       Fresh scopeguard v1.2.0
+       Fresh parking_lot_core v0.9.10
+       Fresh tracing-log v0.1.4
+       Fresh bevy_macro_utils v0.13.2
+       Fresh bevy_utils v0.13.2
+       Fresh tracing-subscriber v0.3.18
+       Fresh lock_api v0.4.12
+       Fresh byteorder v1.5.0
+       Fresh gpu-alloc-types v0.3.0
+       Fresh gpu-descriptor-types v0.1.2
+       Fresh crossbeam-channel v0.5.13
+       Fresh bevy_reflect_derive v0.13.2
+       Fresh bevy_ecs_macros v0.13.2
+       Fresh bevy_derive v0.13.2
+       Fresh parking_lot v0.12.3
+       Fresh libloading v0.7.4
+       Fresh gpu-descriptor v0.2.4
+       Fresh khronos-egl v6.0.0
+       Fresh bevy_reflect v0.13.2
+       Fresh libm v0.2.8
+       Fresh ash v0.37.3+1.3.251
+       Fresh syn v1.0.109
+       Fresh gpu-alloc v0.6.0
+       Fresh wgpu-types v0.19.2
+       Fresh glow v0.13.1
+       Fresh renderdoc-sys v1.1.0
+       Fresh simd-adler32 v0.3.7
+       Fresh profiling v1.0.15
+       Fresh bevy_ecs v0.13.2
+       Fresh event-listener v4.0.3
+       Fresh adler v1.0.2
+       Fresh atomic-waker v1.1.2
+       Fresh cc v1.0.98
+       Fresh accesskit v0.12.3
+       Fresh crc32fast v1.4.2
+       Fresh static_assertions v1.1.0
+       Fresh fdeflate v0.3.4
+       Fresh encase_derive_impl v0.7.0
+       Fresh bevy_app v0.13.2
+       Fresh miniz_oxide v0.7.3
+       Fresh piper v0.2.2
+       Fresh event-listener-strategy v0.4.0
+       Fresh event-listener v2.5.3
+       Fresh base64 v0.21.7
+       Fresh arrayref v0.3.7
+       Fresh constant_time_eq v0.3.0
+       Fresh bevy_asset_macros v0.13.2
+       Fresh bevy_log v0.13.2
+       Fresh bevy_core v0.13.2
+       Fresh bevy_input v0.13.2
+       Fresh flate2 v1.0.30
+       Fresh async-lock v3.3.0
+       Fresh blocking v1.6.1
+       Fresh bevy_a11y v0.13.2
+       Fresh ron v0.8.1
+       Fresh async-broadcast v0.5.1
+       Fresh bevy_time v0.13.2
+       Fresh bevy_hierarchy v0.13.2
+       Fresh png v0.17.13
+       Fresh bevy_window v0.13.2
+       Fresh blake3 v1.5.1
+       Fresh async-fs v2.1.2
+       Fresh color_quant v1.1.0
+       Fresh data-encoding v2.6.0
+       Fresh const_soft_float v0.1.4
+       Fresh twox-hash v1.6.3
+       Fresh encase_derive v0.7.0
+       Fresh derive_more v0.99.17
+       Fresh const_panic v0.2.8
+       Fresh constgebra v0.1.4
+       Fresh bevy_transform v0.13.2
+       Fresh bevy_asset v0.13.2
+       Fresh ruzstd v0.5.0
+       Fresh encase v0.7.0
+       Fresh bevy_encase_derive v0.13.2
+       Fresh bevy_render_macros v0.13.2
+       Fresh ktx2 v0.3.0
+       Fresh bevy_mikktspace v0.13.2
+       Fresh pkg-config v0.3.30
+       Fresh radsort v0.1.0
+       Fresh hexasphere v10.0.0
+       Fresh svg_fmt v0.4.3
+       Fresh linux-raw-sys v0.4.14
+       Fresh rectangle-pack v0.4.2
+       Fresh ttf-parser v0.21.1
+       Fresh ab_glyph_rasterizer v0.1.8
+       Fresh num-traits v0.2.19
+       Fresh owned_ttf_parser v0.21.0
+       Fresh percent-encoding v2.3.1
+       Fresh xi-unicode v0.3.0
+       Fresh dlib v0.5.2
+       Fresh naga v0.19.2
+       Fresh rustix v0.38.34
+       Fresh ab_glyph v0.2.26
+       Fresh ryu v1.0.18
+       Fresh inflections v1.1.1
+       Fresh x11rb-protocol v0.13.1
+       Fresh as-raw-xcb-connection v1.0.1
+       Fresh wgpu-hal v0.19.4
+       Fresh polling v3.7.0
+       Fresh xkeysym v0.2.0
+       Fresh itoa v1.0.11
+       Fresh x11rb v0.13.1
+       Fresh gltf-derive v1.4.1
+       Fresh alsa-sys v0.3.1
+       Fresh x11-dl v2.21.0
+       Fresh wgpu-core v0.19.4
+       Fresh xkbcommon-dl v0.4.2
+       Fresh serde_json v1.0.117
+       Fresh calloop v0.12.4
+       Fresh slotmap v1.0.7
+       Fresh naga_oil v0.13.0
+       Fresh image v0.24.9
+       Fresh inotify-sys v0.1.5
+       Fresh tinyvec_macros v0.1.1
+       Fresh cursor-icon v1.1.0
+       Fresh wgpu v0.19.4
+       Fresh grid v0.10.0
+       Fresh gltf-json v1.4.1
+       Fresh libudev-sys v0.1.4
+       Fresh winit v0.29.15
+       Fresh tinyvec v1.6.0
+       Fresh inotify v0.10.2
+       Fresh alsa v0.9.0
+       Fresh nix v0.28.0
+       Fresh ogg v0.8.0
+       Fresh bevy_render v0.13.2
+       Fresh dasp_sample v0.11.0
+       Fresh vec_map v0.8.2
+       Fresh accesskit_winit v0.17.0
+       Fresh lewton v0.10.2
+       Fresh gltf v1.4.1
+       Fresh bevy_gizmos_macros v0.13.2
+       Fresh fnv v1.0.7
+       Fresh sysinfo v0.30.12
+       Fresh const-fnv1a-hash v1.1.0
+       Fresh gilrs-core v0.5.11
+       Fresh cpal v0.15.3
+       Fresh bevy_diagnostic v0.13.2
+       Fresh bevy_core_pipeline v0.13.2
+       Fresh approx v0.5.1
+       Fresh euclid v0.22.10
+       Fresh rodio v0.17.3
+       Fresh gilrs v0.10.7
+       Fresh guillotiere v0.6.2
+       Fresh glyph_brush_layout v0.2.3
+       Fresh bevy_pbr v0.13.2
+       Fresh bevy_scene v0.13.2
+       Fresh taffy v0.3.19
+       Fresh bevy_gilrs v0.13.2
+       Fresh bevy_audio v0.13.2
+       Fresh bevy_sprite v0.13.2
+       Fresh bevy_animation v0.13.2
+       Fresh safe_arch v0.7.1
+       Fresh bevy_winit v0.13.2
+       Fresh num-complex v0.4.6
+       Fresh bevy_text v0.13.2
+       Fresh bevy_gltf v0.13.2
+       Fresh wide v0.7.23
+       Fresh bevy_gizmos v0.13.2
+       Fresh paste v1.0.15
+       Fresh num-integer v0.1.46
+       Fresh rawpointer v0.2.1
+       Fresh nalgebra-macros v0.2.1
+       Fresh bevy_ui v0.13.2
+       Fresh matrixmultiply v0.3.8
+       Fresh simba v0.8.1
+       Fresh typenum v1.17.0
+       Fresh num-rational v0.4.2
+       Fresh crossbeam-epoch v0.9.18
+       Fresh robust v1.1.0
+       Fresh crossbeam-queue v0.3.11
+       Fresh num-derive v0.4.2
+       Fresh either v1.12.0
+       Fresh ordered-float v4.2.0
+       Fresh bevy_internal v0.13.2
+       Fresh crossbeam-deque v0.8.5
+       Fresh spade v2.8.0
+       Fresh nalgebra v0.32.5
+       Fresh bevy_dylib v0.13.2
+       Fresh parry2d v0.15.1
+       Fresh crossbeam v0.8.4
+       Fresh bevy v0.13.2
+       Fresh rapier2d v0.19.0
+       Fresh bevy_utils v0.1.0 (/home/jasper/documents/roguelike/bevy_utils)
+       Fresh bevy_rapier2d v0.26.0
+       Fresh macros v0.1.0 (/home/jasper/documents/roguelike/macros)
+       Fresh main_crate v0.1.0 (/home/jasper/documents/roguelike/main_crate)
+warning: unused import: `Startup`
+ --> main_crate/src/game_state/main_menu/mod.rs:2:19
+  |
+2 |     app::{Plugin, Startup},
+  |                   ^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused variable: `world`
+ --> main_crate/src/game_state/in_game/systems.rs:3:21
+  |
+3 | pub(super) fn setup(world: &mut World) {}
+  |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_world`
+  |
+  = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `world`
+ --> main_crate/src/game_state/main_menu/systems.rs:3:21
+  |
+3 | pub(super) fn setup(world: &mut World) {
+  |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_world`
+
+warning: `main_crate` (bin "main_crate") generated 3 warnings (run `cargo fix --bin "main_crate"` to apply 1 suggestion)
+    Finished `dev` profile [optimized + debuginfo] target(s) in 0.22s

@@ -1,4 +1,7 @@
-use bevy::{ecs::system::Resource, math::primitives::BoxedPolyline2d};
+use bevy::{
+    ecs::system::Resource,
+    math::{primitives::BoxedPolyline2d, Rect},
+};
 
 #[derive(Resource, Debug, Clone, PartialEq, Default)]
 pub(super) struct CurrentLevel {
@@ -9,4 +12,6 @@ pub(super) struct CurrentLevel {
     // walkable_polylines: Box<[BoxedPolyline2d]>,
     // climbable_polylines: Box<[BoxedPolyline2d]>,
     // impassable_polylines: Box<[BoxedPolyline2d]>,
+    size: Rect,
+    environment_collider: Box<[BoxedPolyline2d]>,
 }
