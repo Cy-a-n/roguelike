@@ -1,0 +1,10 @@
+[package]
+name = "material_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.13.0" }
+bevy_spectator = "0.5.0"
+iyes_perf_ui = "0.2.3"
+material_handles = { path = "../material_handles" }
