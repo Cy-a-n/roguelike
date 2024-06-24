@@ -1,5 +1,5 @@
 [package]
-name = "material_editor"
+name = "model_3d_viewer"
 version = "0.1.0"
 edition = "2021"
 

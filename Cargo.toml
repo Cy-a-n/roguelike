@@ -6,7 +6,8 @@ members = [
     "bevy_utils",
     "material_handles",
     "models_3d",
-    "material_editor",
+    "material_viewer",
+    "model_3d_viewer", "material_editor",
 ]
 
 # Enable a small amount of optimization in debug mode

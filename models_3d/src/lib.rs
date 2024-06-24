@@ -6,6 +6,8 @@ mod components;
 mod resources;
 mod systems;
 
+pub use material_handles::MaterialHandles;
+
 pub struct Models3DPlugin;
 
 impl Plugin for Models3DPlugin {
